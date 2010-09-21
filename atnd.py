@@ -144,16 +144,3 @@ class Api:
                 # TODO: raise exception
                 None
         return query[:-1]
-
-
-#api = Api()
-#param = { 'twitter_id':'yku_',
-#          'keyword':['OS', 'コマンド'],
-#          'count': '1'
-#        }
-#param = { 'twitter_id':'yku_', 'count':'3' }
-#result = api.event_user_search(param)
-#for r in result['event']:
-#    for k, v in r.items():
-#        print k, v
-#    print 
